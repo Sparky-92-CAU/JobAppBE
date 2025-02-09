@@ -1,16 +1,57 @@
-# Compiled class file
+# ========= Common Files =========
+HELP.md
+.DS_Store
+Thumbs.db
+
+# ========= Build Directories =========
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========= Maven Wrapper =========
+!.mvn/wrapper/maven-wrapper.jar
+
+# ========= STS (Spring Tool Suite) =========
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# ========= IntelliJ IDEA =========
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ========= NetBeans =========
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========= VS Code =========
+.vscode/
+
+# ========= Compiled Class Files =========
 *.class
 
-# Log file
+# ========= Log Files =========
 *.log
 
-# BlueJ files
+# ========= BlueJ Files =========
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# ========= Mobile Tools for Java (J2ME) =========
 .mtj.tmp/
 
-# Package Files #
+# ========= Package Files =========
 *.jar
 *.war
 *.nar
@@ -19,6 +60,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# ========= Virtual Machine Crash Logs =========
 hs_err_pid*
 replay_pid*
